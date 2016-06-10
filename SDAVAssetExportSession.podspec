@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/rs/SDAVAssetExportSession"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author    = "Olivier Poitrey"
-  s.platform     = :ios, "6.0"
+  s.platforms = { :ios => "8.0", :osx => "10.10" }
   s.source       = { :git => "https://github.com/rs/SDAVAssetExportSession.git", :commit => "726f571" }
   s.source_files  = "**/*.{h,m}"
   s.requires_arc = true
